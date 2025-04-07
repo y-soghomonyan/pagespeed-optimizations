@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "PSO\\": "classes/",
+      "PSO\\Controllers\\": "classes/controllers",
+      "PSO\\Models\\": "classes/models",
+      "PSO\\Helpers\\": "classes/helpers"
+    }
+  }
+}
