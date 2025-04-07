@@ -16,5 +16,3 @@ define('PSO_PLUGIN_VERSION', '1.0.0');
 use PSO\Plugin;
 
 new Plugin();
-
-// In your plugin's main file
