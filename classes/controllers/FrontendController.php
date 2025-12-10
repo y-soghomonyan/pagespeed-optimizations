@@ -28,7 +28,7 @@ class FrontendController extends BaseController
 
         if (!empty($preloadImages)) {
             foreach ($preloadImages as $imageUrl) {
-                echo '<link rel="preload" href="' . esc_url($imageUrl) . '" as="image">';
+                echo '<link rel="preload" href="' . esc_url($imageUrl) . '" as="image" fetchpriority="high">';
             }
         }
     }
